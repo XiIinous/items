@@ -28,7 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '.localhost', '127.0.0.1', '[::1]',
-    '.vercel.app'
+    '.vercel.app',
+    '.allisonlee.lol',
+    'allisonlee.lol'
 ]
 
 
@@ -128,7 +130,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'hell_world', 'static'), ]
 # Configures the staticfiles directory to serve
 # static files from /static/ on our deployment
 STATIC_ROOT = os.path.join(
