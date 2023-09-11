@@ -31,6 +31,8 @@ ALLOWED_HOSTS = [
     '.vercel.app',
     '.www.allisonlee.lol',
     'www.allisonlee.lol',
+    'allisonlee.lol',
+    '.allisonlee.lol'
 ]
 
 
